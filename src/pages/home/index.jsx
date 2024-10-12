@@ -28,9 +28,9 @@ export default function Home() {
 
     return (
         <div className='pagina-home'>
-            <h1> ENTRAR </h1>
+            <h1> Entrar </h1>
 
-            <div className='campo'>
+            <div className='secao'>
                 <label htmlFor='nome'>Nome</label>
                 <input
                     id='nome'
@@ -40,7 +40,7 @@ export default function Home() {
                 />
             </div>
 
-            <div className='campo'>
+            <div className='secao'>
                 <label htmlFor='senha'>Senha</label>
                 <input
                     id='senha'

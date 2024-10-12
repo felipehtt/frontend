@@ -4,15 +4,11 @@ import './index.scss'
 import axios from 'axios'
 import { Link, useNavigate } from 'react-router-dom';
 
-
-
 export default function Consultar() {
     const [token, setToken] = useState(null);
     const [usuario, setUsuario] = useState([]);
 
-
     const navigate = useNavigate()
-
 
     async function buscar() {
         const url = `http://localhost:7000/diario?x-access-token=${token}`;

@@ -1,7 +1,7 @@
 .pagina-home {
     padding: 50px;
 
-    .campo {
+    .secao {
         display: flex;
         flex-direction: column;
         width: 250px;
@@ -17,5 +17,21 @@
             padding: 6px;
             margin-top: 8px;
         }
+    }
+
+    button {
+        font: 600 18px 'Poppins';
+        padding: 6px 10px;
+        border: none;
+        background-color: #2f72c9;
+        color: #fff;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+
+    button:hover {
+
+        background-color: #1857aa;
+        transition: 0.7s;
     }
 }
